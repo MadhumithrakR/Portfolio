@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhu's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background-color: darkkhaki;
+        }
+        .navbar {
+            background-color: black !important;
+        }
+        .hero {
+            height: 100vh;
+            background: url('https://source.unsplash.com/1600x900/?coding,technology') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: black;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+        .skills .progress {
+            height: 25px;
+        }
+        .card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Madhu's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ai">Paper Presentation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero d-flex justify-content-center">
+        <div class="container">
+            <img src="Madhu profile.jpg" alt="Profile" class="profile-image">
+            <h1>Hello, I'm Madhumithra!!</h1>
+            <p>A Passionate FullStack Developer & UI/UX Designer</p>
+            <a href="#about" class="btn btn-dark mt-3">Know More</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>"I'm a full-stack developer currently pursuing an MSc.SS.
+                I build dynamic web and mobile applications using React.js, 
+                HTML, CSS, JavaScript, Flutter, and Firebase.
+                My portfolio showcases diverse projects,
+                reflecting my commitment to both 
+                technical excellence and continuous learning."</p>
+        </div>
+    </section>
+
+    <section id="internship" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Internship</h2>
+            <p>I successfully completed an internship at Steps Knowledge Pvt Ltd,
+                 where I gained hands-on experience in UI/UX development using Qt Creator.
+                  Over the course of my internship, I worked on designing intuitive user
+                   interfaces and enhancing application functionality. I collaborated with
+                    a skilled team to develop innovative solutions for real-world applications.
+                     This experience strengthened my technical skills and deepened my understanding 
+                     of UI/UX principles.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 text-center">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline-block; margin-right: 10px;">Bootstrap,CSS,</li>
+                <li style="display: inline-block; margin-right: 10px;">Dart,</li>
+                <li style="display: inline-block; margin-right: 10px;">Figma,</li>
+                <li style="display: inline-block; margin-right: 10px;">Flutter,</li>
+                <li style="display: inline-block; margin-right: 10px;">Google ,Firebase,</li>
+                <li style="display: inline-block; margin-right: 10px;">HTML,</li>
+                <li style="display: inline-block; margin-right: 10px;">Java,</li>
+                <li style="display: inline-block; margin-right: 10px;">JavaScript,</li>
+                <li style="display: inline-block; margin-right: 10px;">MongoDB,</li>
+                <li style="display: inline-block; margin-right: 10px;">Python,</li>
+                <li style="display: inline-block; margin-right: 10px;">React,</li>
+                <li style="display: inline-block; margin-right: 10px;">SQL,</li>
+                <li style="display: inline-block; margin-right: 10px;">Node.js</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="ai" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Paper Prsentation</h2>
+            <p>Presented a paper on Automated Plant
+                Watering System at Kongu Engineering
+                College</p>
+                <P>Active participation in National-Level
+                    Technical Symposium coding club</P>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark text-white py-5 text-center">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: madhumithrakumar21@gmail.com</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
